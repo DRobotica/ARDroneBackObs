@@ -1,0 +1,21 @@
+<package>
+  <description brief="ardrone_programs">
+
+     ardrone_programs
+
+  </description>
+  <author>Jesús</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ardrone_programs</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="tf"/>
+  <depend package="geometry_msgs"/>
+  <depend package="ardrone_autonomy"/>
+  <depend package="serial_port"/>
+
+</package>
+
+

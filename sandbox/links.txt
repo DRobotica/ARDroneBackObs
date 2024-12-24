@@ -1,0 +1,8 @@
+http://nootrix.com/2013/08/ros-namespaces/
+
+https://github.com/AutonomyLab/ardrone_autonomy/issues/56
+http://hacked10bits.blogspot.mx/2014/02/multiple-ardrones-from-single-computer.html
+http://dronehacks.com/
+
+http://gazebosim.org/#features
+http://wiki.ros.org/hector_quadrotor

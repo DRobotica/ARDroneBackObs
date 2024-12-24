@@ -1,0 +1,74 @@
+cmake_minimum_required(VERSION 2.4.6)
+include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
+
+# Set the build type.  Options are:
+#  Coverage       : w/ debug symbols, w/o optimization, w/ code-coverage
+#  Debug          : w/ debug symbols, w/o optimization
+#  Release        : w/o debug symbols, w/ optimization
+#  RelWithDebInfo : w/ debug symbols, w/ optimization
+#  MinSizeRel     : w/o debug symbols, w/ optimization, stripped binaries
+#set(ROS_BUILD_TYPE RelWithDebInfo)
+
+rosbuild_init()
+
+#set the default path for built executables to the "bin" directory
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+#set the default path for built libraries to the "lib" directory
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+
+#uncomment if you have defined messages
+#rosbuild_genmsg()
+#uncomment if you have defined services
+#rosbuild_gensrv()
+
+#common commands for building c++ executables and libraries
+#rosbuild_add_library(${PROJECT_NAME} src/example.cpp)
+#target_link_libraries(${PROJECT_NAME} another_library)
+#rosbuild_add_boost_directories()
+#rosbuild_link_boost(${PROJECT_NAME} thread)
+#rosbuild_add_executable(example examples/example.cpp)
+#target_link_libraries(example ${PROJECT_NAME})
+
+#rosbuild_add_executable(control_leds src/control_leds.cpp)
+#rosbuild_add_executable(fly_back_and_forth src/fly_back_and_forth.cpp)
+#rosbuild_add_executable(fly_from_joy src/fly_from_joy.cpp)
+#rosbuild_add_executable(fly_from_joy_test_K src/fly_from_joy_test_K.cpp)
+#rosbuild_add_executable(land src/land.cpp)
+#rosbuild_add_executable(reset src/reset.cpp)
+#rosbuild_add_executable(takeoff src/takeoff.cpp)
+#rosbuild_add_executable(test_fly src/test_fly.cpp)
+#rosbuild_add_executable(test_fly_find_K src/test_fly_find_K.cpp)
+#rosbuild_add_executable(pid_point src/pid_to_point.cpp)
+#rosbuild_add_executable(prueba1 src/prueba1.cpp)
+#rosbuild_add_executable(datos src/datos.cpp)
+#rosbuild_add_executable(yaw src/yaw.cpp)
+#rosbuild_add_executable(zeta src/zeta.cpp)
+#rosbuild_add_executable(controlyaw src/controlyaw.cpp)
+#rosbuild_add_executable(controlz src/controlz.cpp)
+#rosbuild_add_executable(controlyaw2 src/controlyaw2.cpp)
+#rosbuild_add_executable(controlz2 src/controlz2.cpp)
+#rosbuild_add_executable(controlx src/controlx.cpp)
+#rosbuild_add_executable(controly src/controly.cpp)
+#rosbuild_add_executable(controltotal src/controltotal.cpp)
+#rosbuild_add_executable(seguimiento src/seguimiento.cpp)
+#rosbuild_add_executable(datos2 src/datos2.cpp)
+#rosbuild_add_executable(datosD1 src/datosD1.cpp)
+#rosbuild_add_executable(takeoffD1 src/takeoffD1.cpp)
+#rosbuild_add_executable(landD1 src/landD1.cpp)
+#rosbuild_add_executable(vueloformD1 src/vueloformD1.cpp)
+#rosbuild_add_executable(formacionD1 src/formacionD1.cpp)
+#rosbuild_add_executable(puntoD1 src/puntoD1.cpp)
+#rosbuild_add_executable(lider src/lider.cpp)
+#rosbuild_add_executable(prueba src/prueba.cpp)
+#rosbuild_add_executable(prueba2 src/prueba2.cpp)
+#rosbuild_add_executable(drone src/drone.cpp)
+#rosbuild_add_executable(sensores src/sensores.cpp)
+rosbuild_add_executable(dbackD2 src/dbackD2.cpp)
+#rosbuild_add_executable(dback3d src/dback3d.cpp)
+#rosbuild_add_executable(dbackD1 src/dbackD1.cpp)
+#rosbuild_add_executable(seguidordback src/seguidordback.cpp)
+rosbuild_add_executable(landD2 src/landD2.cpp)
+rosbuild_add_executable(dback3dD2 src/dback3dD2.cpp)
+rosbuild_add_executable(dback3dD2f src/dback3dD2f.cpp)
+rosbuild_add_executable(landD3 src/landD3.cpp)
+rosbuild_add_executable(dbackD3 src/dbackD3.cpp)
