@@ -1,2 +1,15 @@
-# ARDroneBackObs
-Resources and extra documentation for the manuscript "UAV Flight Comparison Using Backstepping On-board Data and Observers" published in IEEE Latin America Transactions.
+# Code of the experiments for UAV AR.Drone 2.0 flight trajectory tracking, using state observers and on board data. 
+Resources and extra documentation for the manuscript titled "UAV Flight Comparison Using Backstepping On-board Data and Observers" with ID 9357 published in IEEE Latin America Transactions.
+
+This work presents the comparison of performance in flight trajectory tracking for a commercial UAV AR.Drone 2.0, using state observers and on board data. This work seeks to establish that state observers are an alternative to close the control loop in this type of applications. The control strategy proposed for the flight is designed using the Backstepping technique. For the implementation of the control law, knowledge of the position and orientation of the UAV is assumed, therefore, its longitudinal and rotational velocities are estimated either by using observers or data from the combination of inertial and visual measurement of the on-board sensors. In both cases, the designed control strategy makes the UAV converge to the preestablished flight trajectory. However, an analysis of the mean square error between the UAV trajectory with respect to the desired trajectory, gives as a result that, in three of the four compared states, the error obtained with the observer is lower. The theoretical results presented are validated experimentally.
+
+Authors:
+
+Jesus Santiaguillo-Salinas was born in Mexico on March 1986. He received his M.Sc. and Ph.D. degrees in Electrical Engineering from Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV), Mexico, in 2012 and 2017, respectively. His research interests include mobile robotics and motion coordination problems with non-collision for multi-agent system. Currently, Dr. Santiaguillo-Salinas holds a Full Professor-Researcher Position at the Mechatronics Department of the Papaloapan University, Mexico.
+
+Eduardo Aranda-Bricaire was born in Mexico City. He obtained the M.Sc Degree from Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV), Mexico, in 1991, and the Ph.D. Degree from Ecole Centrale de Nantes and Université de Nantes, France in 1994. Dr. Aranda-Bricaire´s research interests include Nonlinear Control Theory, Mobile Robotics, Multi- Agent Robot Systems and Discrete-Event Systems. Dr. Aranda-Bricaire has served as President of the Mexican Association of Automatic Control, the corresponding National Member Organization of the International Federation of Automatic Control (IFAC). Currently, Dr. Aranda-Bricaire holds a Full Professor Position at the Mechatronics Section of the CINVESTAV, Mexico.
+
+Hiram N. Garcia-Lozano was born in Mexico State. He received his M.Sc. and Ph.D. degrees in Automatic Control from Center for Research and Advanced Studies of the National Polytechnic Institute (CINVESTAV), Mexico, in 2002 and 2007, respectively. Dr. Garcia-Lozano’s research interests include robotics, mobile robotics and control systems. Currently, Dr. Garcia-Lozano holds a Full Professor-Researcher Position at the Mechatronics Department of the Papaloapan University, Mexico.
+
+# Description
+This repository include the necessary files to reproduce the results in the paper.
