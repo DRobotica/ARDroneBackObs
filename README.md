@@ -54,7 +54,6 @@ The folders contained in this repository are described below.
   `$ rosrun sandbox\ardrone_programs net`
 5. Run the program to perform trajectory tracking using backstepping:
   `$ rosrun sandbox\ardrone_programs dbackD1`
-
-Each instruction in the steps above is run from the console (one for each instruction).
+  > Each instruction in the steps above is run from the console (one for each instruction).
 
 For more information about ROS (creating and using packages, using roslaunch, rosrun, among other basic information) you can consult the [ROS Wiki](https://wiki.ros.org/ROS/Tutorials#Beginner_Level)
