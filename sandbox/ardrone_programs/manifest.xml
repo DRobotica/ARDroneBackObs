@@ -14,7 +14,6 @@
   <depend package="tf"/>
   <depend package="geometry_msgs"/>
   <depend package="ardrone_autonomy"/>
-  <depend package="serial_port"/>
 
 </package>
 
