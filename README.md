@@ -23,7 +23,7 @@ To replicate the results of the paper, an experimental platform with the followi
 ## Description
 
 The folders contained in this repository are described below.
-- **ardrone_autonomy.** ROS package that contains the driver to be able to use the AR.Drone. The installation process and its use are detailed in the README.md file inside the folder.
+- **ardrone_autonomy.** ROS package that contains the driver to be able to use the AR.Drone. The installation process and its use are detailed in the [README.md](ardrone_autonomy/README.md) file inside the folder.
 - **sandbox\ardrone_programs.** ROS package that contains the files necessary to reproduce the experiments of the paper. This package must be placed inside the ROS workspace and its content is as follows
   - **bin.** Contains files generated from the compilation of the source codes in src.
   - **build.** Contains the executable files generated from the source codes in src.
